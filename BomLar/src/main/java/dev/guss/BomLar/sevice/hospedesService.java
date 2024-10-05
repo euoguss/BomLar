@@ -13,8 +13,8 @@ public class hospedesService {
     @Autowired
     private hospedesRepository repo;
 
-    // Asicionar um hospede
-    public hospedes addHospede(hospedes hospede){
+    // Adicionar um hospede
+    public hospedes createHospede(hospedes hospede){
         return repo.save(hospede);
     }
 

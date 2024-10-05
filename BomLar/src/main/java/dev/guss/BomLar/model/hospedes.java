@@ -5,6 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 
 @Entity
 @Table(name = "hospedes")
@@ -19,7 +22,5 @@ public class hospedes {
     Long cpf;
     String nome;
     String email;
-    String cidade;
-    int entrada;
-    int nascimento;
+    int idade;
 }

@@ -10,4 +10,5 @@ public class BomLarApplication {
 		SpringApplication.run(BomLarApplication.class, args);
 	}
 
+
 }
